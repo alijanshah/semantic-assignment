@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(189, 189, 189, 0.691);
+}
+
+.main-box {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  /* background-color: azure; */
+}
+.heading {
+  text-align: center;
+  margin-top: 10px;
+}
+#box {
+  width: 30%;
+  height: 80%;
+  /* border: 1px solid grey; */
+  margin: auto;
+  position: relative;
+  background-color: azure;
+}
+.header {
+  width: 100%;
+  height: 17%;
+  /* border: 1px solid rgb(255, 105, 78); */
+  background-color: rgb(251, 127, 105);
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+.nav {
+  margin-top: 3px;
+  width: 100%;
+  height: 10%;
+  /* border: 1px soli rgb(96, 255, 176); */
+  background-color: rgb(96, 255, 176);
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+#main {
+  position: absolute;
+  width: 100%;
+  height: 73%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 5px;
+  gap: 5px;
+  padding-top: 5px;
+}
+
+#main .aside {
+  flex: 2;
+  /* border: 1px solid blue; */
+  background-color: bisque;
+  text-align: center;
+  border-radius: 5px;
+}
+#main .aside h3 {
+  margin-top: 100%;
+}
+
+#main .main-right {
+  flex: 5;
+  /* border: 1px solid grey; */
+  background-color: rgb(199, 219, 222);
+  border-radius: 5px;
+}
+.article {
+  width: 80%;
+  height: 73%;
+  /* border: 1px solid rgb(77, 196, 244); */
+  background-color: rgb(77, 196, 244);
+  text-align: center;
+  margin: auto;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.article .figure {
+  width: 80%;
+  height: 40%;
+  /* border: 1px solid yellow; */
+  background-color: yellow;
+  margin: auto;
+  margin-top: 2%;
+  padding-top: 10%;
+  border-radius: 5px;
+}
+.article .p {
+  width: 80%;
+  height: 40%;
+  /* border: 1px solid rgb(224, 235, 105); */
+  background-color: rgb(224, 235, 105);
+  margin: auto;
+  margin-top: 3%;
+  font-size: xx-large;
+  padding-top: 10%;
+  border-radius: 5px;
+}
+
+.main-right .section {
+  width: 80%;
+  height: 13%;
+  /* border: 1px solid royalblue; */
+  background-color: royalblue;
+  padding-top: 5px;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+.main-box .footer {
+  width: 30%;
+  height: 10%;
+  /* border: 1px solid rgb(144, 53, 144); */
+  background-color: rgb(203, 140, 203);
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1%;
+  padding-top: 7px;
+  /* gap: 10px; */
+}
